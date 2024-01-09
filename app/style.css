@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #212121;
+  }
+  
+  .photos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  
+  .photo {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: #333333;
+  }
+  
+  .description {
+    background-color: #111111;
+    padding: 20px;
+    color: #FFFFFF;
+  }
